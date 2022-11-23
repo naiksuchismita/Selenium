@@ -65,7 +65,8 @@ public class BaseClass {
 	@AfterMethod(alwaysRun=true)
 	public void logout()
 	{
-		driver.findElement(By.id("logoutLink"));
+		driver.findElement(By.id("logoutLink")); //removing this for an e.g. of git pull
+		
 	}
 	
 	@AfterClass(alwaysRun=true)
